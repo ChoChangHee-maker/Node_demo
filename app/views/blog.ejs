@@ -1,0 +1,18 @@
+<% include ./header.ejs %>
+<% include ./menu.ejs %>
+
+<div>블로그</div>
+
+<!--
+<div>1번째 블로그</div>
+<div>2번째 블로그</div>
+<div>3번째 블로그</div>
+<div>4번째 블로그</div>
+<div>5번째 블로그</div>
+-->
+
+<% for ( var i = 0; i < 10; i++ ){ %>
+    <div><a href="/blog<%=i%>"><%=i%>번째블로그</a></div>
+<% }%>
+
+<% include ./footer.ejs %>
