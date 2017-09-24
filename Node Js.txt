@@ -1,0 +1,19 @@
+Node.js + React + SPA
+
+자바스크립트
+
+웹개발
+
+1. 서버 -> 물리적서버 ( 사용중인 PC )
+   - 최신버전, 안정적인 버전 ( LTS ) - 2~3sus 관리를 해줌
+   - Node 사이트에서 다운로드, 설치
+   - Node 설치가 잘 되었는지 확인 ( Command(cmd) 에서 확인 > node -v )
+   - Node를 설치하면 NPM(node package manager)이 자동으로 설치된다.
+
+   - npm 설치
+   
+   - npm install supervisor -g (글로벌설치)
+   - npm install ejs --save
+
+2. OS -> 윈도우
+
